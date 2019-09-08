@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "tldr",
+    "version": "1.0",
+    "description": "Summarize those unreadable terms and conditions!",
+    "icons": {
+        "128": "/images/icon.png",
+        "48": "/images/icon.png",
+        "16": "/images/icon.png"
+    },
+    "background": {
+        "scripts": ["eventPages.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs",
+        "contextMenus"
+    ]
+}
